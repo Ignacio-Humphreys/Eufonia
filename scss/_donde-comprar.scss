@@ -1,0 +1,38 @@
+.recommendation{
+	padding-top: 120px;
+	margin-bottom: -120px;
+	@include h1;
+}
+.tabla{
+	margin-top: 170px;
+	margin-left: 100px;
+	border: 1px solid darkred;
+	text-align: center;
+	color: black;
+}
+.tabla__encabezado{
+	padding: 7px;
+	border: 1px solid darkred;
+	color: darkred;
+	background-color: $NarPrinc;
+}
+.tabla__elemento{
+	padding: 7px;
+	border: 1px solid darkred;
+}
+.tabla__a{
+	color: black;
+	font-weight: 700;
+}
+.mapa{
+	display: flex;
+	padding-top: 20px;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.mapa h2{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Eufonía - Contactanos</title>
+	<link rel="icon" href="../img/Logo_4_icon.jpg">
+	<meta name="keywords" content="musica, guitarra, bajo, bateria, instrumentos, sonido, parlante, bafle, tienda, contacto, mail, ayuda">
+	<meta name="description" content="Eufonía es el mayor catálogo musical online de la Argentina. Encontrá los mejores instrumentos, elementos de sonido y nuevos lanzamientos. Contactanos para recibir la mejor información sobre los productos que necesites">
+	<meta name="author" content="Ignacio Tomás Humphreys">
+	<meta name="robots" content="index">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');</style>
+	<style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light justify-content-around">
+ 		 <div class="container-fluid">
+   			 <a class="navbar-brand" href="../index.html">
+     			 <img src="../img/Logo_4.jpg" alt="Logo Eufonia" class="d-inline-block align-text-top"> 	
+    			</a>
+   					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    		 <span class="navbar-toggler-icon"></span>
+    		</button>
+    			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+    				<ul class="navbar-nav align-items-center">
+        				<li class="nav-item">
+          					<a class="nav-link text-light" href="quienes_somos.html">¿Quienes Somos?</a>
+        				</li>
+       					<li class="nav-item dropdown">
+        					<a class="nav-link dropdown-toggle text-light" href="productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+        					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        						<li><a class="dropdown-item" href="productos.html">Ofertas</a></li>
+            					<li><a class="dropdown-item" href="prod_guitarras.html">Guitarras</a></li>
+            					<li><a class="dropdown-item" href="prod_bajos.html">Bajos</a></li>
+            					<li><a class="dropdown-item" href="prod_baterias.html">Baterias</a></li>
+            					<li><a class="dropdown-item" href="prod_viento.html">Viento</a></li>
+            					<li><a class="dropdown-item" href="prod_bafles.html">Bafles</a></li>
+            					<li><a class="dropdown-item" href="prod_cables.html">Cables</a></li>
+            					<li><a class="dropdown-item" href="prod_placas.html">Placas</a></li>
+          					</ul>
+          				</li>
+        				<li class="nav-item">
+        					<a class="nav-link text-light" href="donde_comprar.html">¿Donde Comprar?</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link text-light" href="redes.html">Seguinos</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link text-light selected" href="contacto.html">Contactanos</a>
+        				</li>
+      				</ul>
+    			</div>
+  		 </div>
+		</nav>
+	</header>
+	<main class="contenedorContacto">
+		<form autocomplete="on" class="formulario">
+			<h1 class="contactoTitulo">¿Necesitas asesoramiento? Completa el siguiente formulario:</h1>
+			<fieldset>
+				<legend>Por favor, completa los siguientes campos</legend>
+				<div>
+					<label for="name">Nombre:*</label>
+					<input type="text" name="name" required autofocus>
+						<br>
+						<br>
+					<label for="surname">Apellido:*</label>
+					<input type="text" name="surname" required>
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="gender">Género:</label>
+					<input type="radio" name="gender">Femenino
+					<input type="radio" name="gender">Masculino
+					<input type="radio" name="gender">Otro
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="mail">Email:*</label>
+					<input type="email" name="mail" placeholder="example@example.com" required>
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="nationality">Selecciona tu nacionalidad:*</label>
+					<select name="nationality">
+						<option name="nationality" value="argentina">Argentina</option>
+						<option name="nationality" value="bolivia">Bolivia</option>
+						<option name="nationality" value="brasil">Brasil</option>
+						<option name="nationality" value="chile">Chile</option>
+						<option name="nationality" value="paraguay">Paraguay</option>
+						<option name="nationality" value="peru">Peru</option>
+						<option name="nationality" value="uruguay">Uruguay</option>
+					</select>
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="contact-for">Indica en qué categoría estás interesado:*</label>
+					<select name="contact-for" required>
+						<option name="contact-for" value="instrumentos">Instrumentos</option>
+						<option name="contact-for" value="sonido">Elementos de sonido</option>
+						<option name="contact-for" value="cd-dvd-bluray">CDs/DVDs/Blurays</option>
+					</select>
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="consulta">¿Qué tipo de información quiere recibir sobre su consulta?:</label>
+					<input type="checkbox" name="consulta" value="similares">Elementos similares
+					<input type="checkbox" name="consulta" value="otros">Otros colores/modelos/variantes
+					<input type="checkbox" name="consulta" value="envio"><span>Costo de envío</span>
+					<input type="checkbox" name="consulta" value="etc"><span>Otra información</span>
+						<br>
+						<br>
+				</div>
+				<div>
+					<label for="info-extra">Por favor, si lo considerás necesario, detallanos tu consulta:</label>
+					<textarea maxlength="400" spellcheck="true" name="info-extra" placeholder="Escribe tu consulta aquí"></textarea>
+						<br>
+						<br>
+				</div>
+				<div class="enviar">
+					<input type="submit" name="enviar">
+					<input type="reset" name="borrar-datos">
+				</div>
+			</fieldset>
+		</form>
+		<article class="contactosAdicionales">
+			<ul class="contactoMovil">
+				<div class="contactoWhatsapp">
+				<li><a href="https://web.whatsapp.com" target="_blank"><img src="../img/Whatsapp.jpeg" alt="Whatsapp-Logo"></a></li>
+					<div class="celular whatsapp">
+						<h2>Whatsapp</h2>
+						<h3>+5491111111111</h3>
+					</div>
+			</div>
+			<div class="contactoTelegram">
+				<li><a href="https://web.telegram.org/" target="_blank"><img src="../img/telegram.png" alt="Telegram-Logo"></a></li>
+					<div class="celular telegram">
+						<h2>Telegram</h2>
+						<h3>+5491111111111</h3>
+					</div>
+			</div>
+		</article>
+		<aside class="contactosAdicionales_2">
+			<h2>Otros métodos de contacto</h2>
+			<div class="mailAside">
+				<h3>Mail de contacto:</h3>
+				<a class="mailToAside" href="mailto:loremipsum@gmail.com">loremipsum@gmail.com</a>	
+			</div>
+		</aside>
+	</main>
+	<footer class="footerContacto">
+		<div class="redes-container">
+			<h3>Seguinos en nuestras redes:</h3>
+			<ul class="redes-container__ul">
+				<li class="redes-container__li redes-container__li--instagram"><a class="redes-container__a" href="https://www.instagram.com/" target="_blank"><img class="redes-container__img" src="../img/instagram.ico" alt="Instagram-Logo"></a></li>
+				<li class="redes-container__li redes-container__li--facebook"><a class="redes-container__a" href="https://www.facebook.com/" target="_blank"><img class="redes-container__img" src="../img/facebook.svg" alt="Facebook-Logo"></a></li>
+				<li class="redes-container__li redes-container__li--whatsapp"><a class="redes-container__a" href="https://web.whatsapp.com" target="_blank"><img class="redes-container__img" src="../img/Whatsapp.jpeg" alt="Whatsapp-Logo"></a></li>
+		</div>
+			<div class="extras-container">
+				<li class="extras-container__li extras-container__li--mail">Mail de contacto: <a class="extras-container__a extras-container__a--mailTo" href="mailto:loremipsum@gmail.com">loremipsum@gmail.com</a></li>
+				<li>© Ignacio Tomás Humphreys - Todos los derechos reservados</li>
+				<li><a class="extras-container__a extras-container__a--legales" href="legales.html">Legales</a></li>
+			</div>
+		</ul>
+	</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>

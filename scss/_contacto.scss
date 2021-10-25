@@ -1,0 +1,117 @@
+.contenedorContacto{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows:  1fr;
+	grid-template-areas: 
+	"form form"
+	"aside article";
+	max-height: 100%;
+	color: white;
+	background-blend-mode: darken;
+	.formulario{
+	grid-area: form;
+		.contactoTitulo{
+			@include h1;
+			padding-top: 125px;
+		}
+		fieldset{
+			border: 1px solid black;
+			padding-left: 1%;
+			legend{
+				font-family: 'Roboto Slab', serif;
+				text-align: center;
+				font-style: italic;
+				color: black;
+			}
+			span{
+				color: black;
+				}
+			.enviar{
+				padding-bottom: 1%;
+			}
+		}
+	}
+	.contactosAdicionales{
+		grid-area: article;
+		color: black;
+		padding-top: 0.5%;
+		li{
+			list-style-type: none;
+			display: flex;
+			img{
+				max-width: 10vw;
+				max-height: 26.5vh;
+				min-height: 3vh;
+				min-width: 13.5vw;
+				align-items: center;
+				transition: opacity 300ms ease-out;
+				opacity: 0.3;
+				&:hover{
+					box-shadow: 2px 2px grey;
+					transition: opacity 300ms ease-in;
+					opacity: 1;
+				}
+			}
+		}
+	.contactoWhatsapp{
+		display: flex;
+	}
+	.contactoTelegram{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		padding-right: 2%;
+	}
+		.celular{
+			display: flex;
+			flex-direction: column;
+			padding: 2%;
+			padding-top: 0;
+			align-items: flex-start;
+			h2{
+				font-size: 2rem;
+			}
+			h3{
+				font-size: 1.5rem;
+			}
+		.telegram{
+			align-items: flex-end;
+		}
+	}
+}
+	.contactosAdicionales_2{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		grid-area: aside;
+		background-color: $NarOsc;
+		text-align: center;
+		h2{
+			margin-bottom: 0;
+			text-decoration: none;
+			font-family: 'Bebas Neue';
+			font-size: 2rem;
+		}
+		.mailAside{
+			margin-top: 0;
+			h3{
+				margin-top: 0;
+				font-size: 1.5rem;
+				font-family: 'Roboto Slab', serif;
+			}
+			a{
+				text-decoration: none;
+				color: white;
+				transition: ease-out font-size 200ms, ease-out text-shadow 200ms;
+				font-size: 1.7rem;
+				text-shadow: 0px 0px white;
+				font-family: 'Roboto Slab', serif;
+				&:hover{
+					transition: ease-in font-size 200ms, ease-in text-shadow 200ms;
+					font-size: 2rem;
+					text-shadow: 1px 1px white;
+					}
+				}
+			}
+		}
+	}

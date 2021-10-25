@@ -1,0 +1,57 @@
+.seguinos{
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 20px;
+}
+.seguinos h1 {
+  margin-top: 14.7vh;
+  margin-bottom: 0;
+  @include h1;
+}
+.seguinos__li{
+	display: flex;
+	align-items: center;
+}
+.seguinos__img{
+	max-width: 12vw;
+	max-height: 28.5vh;
+	min-height: 4vh;
+	min-width: 15vw;
+	align-items: center;
+	transition: opacity 300ms ease-out;
+	opacity: 0.3;
+}
+.seguinos__img:hover{
+	box-shadow: 2px 2px grey;
+	transition: opacity 300ms ease-in;
+	opacity: 1;
+}
+.seguinos__followers{
+	padding: 0 5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	animation: slideIn 2.5s;
+}
+.seguinos__followers--tiktok, .seguinos__followers--facebook{
+	@include redesDerechas;
+}
+.seguinos__followers h2{
+	@include followers(1.7rem);
+}
+.seguinos__followers h3{
+	@include followers(1.3rem);
+}
+.seguinos__instagram{
+	padding-top: 2%;
+	display: flex;
+}
+.seguinos__facebook, .seguinos__tiktok{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.seguinos__twitter{
+	display: flex;
+}

@@ -1,0 +1,117 @@
+.contenedorProductos {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.seccionProductos{
+	width: 100%;
+}
+.seccionProductos img{
+	opacity: 0.3;
+	transition: ease-in-out opacity 300ms, ease-in-out transform 300ms;
+}
+.seccionProductos img:hover{
+	opacity: 1;
+	transform: scale(1.1, 1.1);
+}
+.seccionProductos h1 {
+	@include h1;
+  margin-bottom: 0;
+  display: flex;
+  margin-top: 8.5%;
+  justify-content: center;
+	background-color: $MainGrey;
+	color: lightgrey;
+}
+.prod_1, .prod_2, .prod3, .prod4, .prod5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+	padding-top: 1%;
+  border-bottom: 1px solid black;
+  padding-bottom: 1%;
+  padding-left: 0.7%;
+	a{
+		color: black;
+	}
+}
+.descProd_1, .descProd_2, .descProd3, .descProd4, .descProd5{
+	padding-left: 5px;
+	width: 90%;
+	h2{
+		font-family: 'Roboto Slab', serif;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+	p{
+		font-family: 'Roboto Slab', serif;
+		font-size: 1rem;
+	}
+}
+.precio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 1%;
+	text-align: right;
+	padding-left: 1%;
+	h2{
+		font-family: 'Roboto Slab', serif;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	h3{
+		font-family: 'Roboto Slab', serif;
+		font-size: 1.1rem;
+	}
+}
+.aside-productos{
+	display: inline-block;
+  width: 20%;
+  background-color: $MainGrey;
+  border: 1px black;
+	.aside-productos__ul--productos{
+		position: sticky;
+		top: 120px;
+		text-align: left;
+		color: white;
+		margin-left: 0px;
+		padding-left: 2px;
+		font-size: 1rem;
+	}
+	.aside-productos__ul--instrumentos, .aside-productos__ul--sonido{
+		@include asideProd(150px);
+	}
+	.aside-productos__ul--sonido{
+		@include asideProd(375px);
+	}
+		.aside-productos__li{
+			line-height: 3;
+			text-align: right;
+			list-style-type: none;
+			transition: background-color 1s linear, text-shadow 1s linear, margin-bottom 300ms ease-in;
+			&:hover{
+				transition: background-color 1s linear, text-shadow 1s linear;
+				background-color: black;
+				text-shadow: 0.25px 0.25px white;
+				width: 100%;
+				margin-bottom: 20px;
+				margin-right: 5px;
+			}
+			.aside-productos__a{
+				color: white;
+				text-decoration: none;
+				margin-right: 5px;
+				font-size: 13px;
+				transition: background-color 1s linear, text-shadow 1s linear, margin-bottom 300ms ease-in;
+			}
+		}
+		.aside-productos__li--instrumentos:hover:nth-child(4){
+			margin-top: 20px;
+		}
+		.aside-productos__li--sonido:hover:nth-child(3){
+			margin-top: 20px;
+			}
+		}
+	
+
+		

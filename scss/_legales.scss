@@ -1,0 +1,22 @@
+.accordion{
+	margin-top: 17vh;
+}
+.accordion h1{
+	@include h1;
+}
+.accordion-item{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+.accordion-header{
+	text-align: center;
+}
+.accordion-button{
+	background-color: $MainGrey;
+	color: white;
+}
+
+.accordion-button:not(.collapsed){
+	@extend .accordion-button;
+	background-color: $NarOsc !important;
+}

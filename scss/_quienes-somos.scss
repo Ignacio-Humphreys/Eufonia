@@ -1,0 +1,96 @@
+.quienes-somos{
+	display: flex;
+	flex-direction: column;
+}
+.quienes-somos__landing{
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	background-color: $MainGrey; /*Si no acepta gradientes el navegador*/
+	background-image: linear-gradient(to bottom left, rgba(62,62,62,1) 0%, rgba(93,93,93,1) 37%, rgba(220,220,220,1) 100%);
+}
+.quienes-somos__imagen{
+	height: 100%;
+	width: 45%;
+}
+.quienes-somos__imagen--img{
+  float: left;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 3s;
+}
+.quienes-somos__texto{
+	width: 55%;
+	height: 100%;
+	padding-top: 15%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 1%;
+	flex-shrink: 3;
+}
+.quienes-somos__texto h2{
+	text-decoration: none;
+	font-family: 'Bebas Neue';
+	color: $NarOsc;
+	text-shadow: 0.1px 0.1px black;
+	margin-bottom: 0;
+	animation: slideIn 3s;
+}
+.quienes-somos__texto h3{
+	font-family: 'Bebas Neue';
+	color: #DBD6D6;	
+	font-style: italic;
+	text-align: center;
+	animation: slideIn_2 3.5s;
+}
+.quienes-somos__texto p{
+	animation: fadeIn 6.5s;
+	color: ivory;
+	font-family: 'Roboto Slab', serif;
+}
+
+.quienes-somos__reseñas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+.quienes-somos__reseñas h1{
+	@include h1;
+	color: $NarOsc;
+	text-shadow: 1px 1px black;
+	font-size: 2.5rem;
+	padding-top: 3%;
+	width: 100%;
+}
+.quienes-somos__div{
+	display: inline-block;
+	max-width: 20%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.quienes-somos__img{
+	box-sizing: border-box;
+	border: 0.5px solid black;
+	width: 200px;
+	height: 200px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	object-fit: cover;
+}
+.quienes-somos__p{
+	box-sizing: border-box;
+	border: 0.5px solid black;
+	width: 200px;
+	height: auto;
+	text-align: justify;
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-size: 0.8rem;
+	font-style: italic;
+}
+.quienes-somos__p span{
+	font-weight: bold;
+	color: black;
+	font-style: normal;
+}
