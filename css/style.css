@@ -723,18 +723,20 @@ footer {
     display: flex;
     position: relative;
     top: 31vh;
-    margin-left: 3% !important;
+    margin-left: 1% !important;
     padding-right: 1% !important;
-    padding-top: 7%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: center;
     align-items: flex-start;
-    width: auto !important; }
+    width: 100% !important; }
   .card-group {
-    height: 90% !important;
-    width: 90% !important; }
+    height: 100% !important;
+    width: 100% !important; }
+  .card-title {
+    font-size: 1rem; }
+  .card-text {
+    font-size: 0.55rem; }
   footer {
     display: flex;
     flex-direction: column;
@@ -749,7 +751,7 @@ footer {
     grid-area: footer;
     margin-top: 69vh; }
   .footerIndex {
-    margin-top: 77vh; }
+    margin-top: 75vh; }
   .redes-container {
     display: flex;
     flex-direction: column;
