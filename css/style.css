@@ -50,7 +50,8 @@ body {
     .navbar .nav-item:hover {
       background-color: #AA4A15; }
   .navbar .nav-item a {
-    transition: text-shadow 350ms ease-in-out; }
+    transition: text-shadow 350ms ease-in-out;
+    text-align: center; }
     .navbar .nav-item a:hover {
       text-shadow: 0.3px 0.3px white; }
   .navbar .navbar-light .navbar-nav .nav-link {
@@ -183,7 +184,7 @@ footer {
           .coverPage .productosDestacados .card-group .card .card-body .card-text {
             margin-top: 0;
             margin-bottom: 0.2rem;
-            font-size: 0.85rem; }
+            font-size: 0.8rem; }
 
 .aside-index {
   display: inline-block;
@@ -343,7 +344,7 @@ footer {
 
 .seccionProductos img:hover {
   opacity: 1;
-  transform: scale(1.1, 1.1); }
+  transform: scale(1.08, 1.08); }
 
 .seccionProductos h1 {
   text-align: center;
@@ -352,7 +353,7 @@ footer {
   color: #2B2B2B;
   margin-bottom: 0;
   display: flex;
-  margin-top: 8.5%;
+  margin-top: 8.7%;
   justify-content: center;
   background-color: #2B2B2B;
   color: lightgrey; }
@@ -406,7 +407,7 @@ footer {
     color: white;
     margin-left: 0px;
     padding-left: 2px;
-    font-size: 1rem; }
+    font-size: 0.9rem; }
   .aside-productos .aside-productos__ul--instrumentos, .aside-productos .aside-productos__ul--sonido {
     position: sticky;
     top: 150px;
@@ -511,28 +512,29 @@ footer {
 
 /*5. Donde comprar*/
 .recommendation {
-  padding-top: 120px;
-  margin-bottom: -120px;
+  padding-top: 17vh;
   text-align: center;
   font-family: 'Bebas Neue';
   font-weight: bolder;
   color: #2B2B2B; }
 
 .tabla {
-  margin-top: 170px;
-  margin-left: 100px;
+  font-size: 1.25vw;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid darkred;
   text-align: center;
   color: black; }
 
 .tabla__encabezado {
-  padding: 7px;
+  padding: 0.3rem;
   border: 1px solid darkred;
   color: darkred;
   background-color: #D98556; }
 
 .tabla__elemento {
-  padding: 7px;
+  padding: 0.45rem;
   border: 1px solid darkred; }
 
 .tabla__a {
@@ -541,11 +543,11 @@ footer {
 
 .mapa {
   display: flex;
-  padding-top: 20px;
+  padding-top: 2vh;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  padding-bottom: 20px; }
+  padding-bottom: 2vh; }
 
 .mapa h2 {
   text-align: center;
@@ -723,7 +725,7 @@ footer {
     display: flex;
     position: relative;
     top: 31vh;
-    margin-left: 1% !important;
+    margin-left: auto !important;
     padding-right: 1% !important;
     flex-direction: column;
     flex-wrap: wrap;
@@ -734,9 +736,9 @@ footer {
     height: 100% !important;
     width: 100% !important; }
   .card-title {
-    font-size: 1rem; }
+    font-size: 1rem !important; }
   .card-text {
-    font-size: 0.55rem; }
+    font-size: 0.55rem !important; }
   footer {
     display: flex;
     flex-direction: column;
@@ -751,7 +753,7 @@ footer {
     grid-area: footer;
     margin-top: 69vh; }
   .footerIndex {
-    margin-top: 75vh; }
+    margin-top: 70vh; }
   .redes-container {
     display: flex;
     flex-direction: column;
@@ -784,6 +786,16 @@ footer {
   .seguinos__followers h3 {
     font-size: 1rem; }
   .footerRedes {
+    margin-top: 0; }
+  /*Donde Comprar*/
+  .tabla {
+    font-size: 1.5vw !important;
+    color: black;
+    text-shadow: 0 0 black; }
+  .mapa {
+    display: flex;
+    width: 100%; }
+  .footerDondeComprar {
     margin-top: 0; }
   /*Contacto*/
   .footerContacto {
@@ -833,8 +845,23 @@ footer {
   .footerQuienes {
     margin-top: 0; }
   /*Productos*/
+  .seccionProductos h1 {
+    margin-top: 12.5vh; }
+  .descProd_1 h2, .descProd_2 h2, .descProd3 h2, .descProd4 h2, .descProd5 h2 {
+    font-size: 1.1rem; }
+  .descProd_1 p, .descProd_2 p, .descProd3 p, .descProd4 p, .descProd5 p {
+    font-size: 0.8rem; }
+  .precio h2 {
+    font-size: 1rem; }
+  .precio h3 {
+    font-size: 0.9rem; }
+  .aside-productos {
+    display: none; }
   .footerProductos {
-    margin-top: 0; } }
+    margin-top: 0; }
+  /*Legales*/
+  .footerLegales {
+    margin-top: 21.5vh; } }
 
 @media (min-width: 767px) and (max-width: 991.98px) {
   .indexBody {
@@ -882,17 +909,21 @@ footer {
   .productosDestacados {
     display: flex;
     position: relative;
-    top: 30vh;
-    margin-left: 6% !important;
-    padding-left: 2% !important;
-    padding-right: 2% !important;
-    padding-top: 7%;
+    top: 31vh;
+    margin-left: auto !important;
+    padding-right: 1% !important;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: center;
     align-items: flex-start;
-    width: auto !important; }
+    width: 100% !important; }
+  .card-group {
+    height: 100% !important;
+    width: 100% !important; }
+  .card-title {
+    font-size: 1.1rem !important; }
+  .card-text {
+    font-size: 0.75rem !important; }
   footer {
     display: flex;
     flex-direction: column;
@@ -906,6 +937,8 @@ footer {
     opacity: 0.8;
     grid-area: footer;
     margin-top: 68vh; }
+  .footerIndex {
+    margin-top: 70vh; }
   .redes-container {
     display: flex;
     flex-direction: column;
@@ -935,6 +968,16 @@ footer {
   .seguinos__followers h3 {
     font-size: 1.15rem; }
   .footerRedes {
+    margin-top: 0; }
+  /*Donde Comprar*/
+  .tabla {
+    font-size: 1.4vw !important;
+    color: black;
+    text-shadow: 0 0 black; }
+  .mapa {
+    display: flex;
+    width: 100%; }
+  .footerDondeComprar {
     margin-top: 0; }
   /*Contacto*/
   .footerContacto {
@@ -986,8 +1029,29 @@ footer {
   .footerQuienes {
     margin-top: 0; }
   /*Productos*/
+  .seccionProductos h1 {
+    margin-top: 12.5vh; }
+  .seccionProductos img:hover {
+    opacity: 1;
+    transform: scale(1.05, 1.05); }
+  .seccionProductos img:hover {
+    opacity: 1;
+    transform: scale(1.05, 1.05); }
+  .descProd_1 h2, .descProd_2 h2, .descProd3 h2, .descProd4 h2, .descProd5 h2 {
+    font-size: 1.3rem; }
+  .descProd_1 p, .descProd_2 p, .descProd3 p, .descProd4 p, .descProd5 p {
+    font-size: 0.9rem; }
+  .precio h2 {
+    font-size: 1.1rem; }
+  .precio h3 {
+    font-size: 1rem; }
+  .aside-productos {
+    display: none; }
   .footerProductos {
-    margin-top: 0; } }
+    margin-top: 0; }
+  /*Legales*/
+  .footerLegales {
+    margin-top: 27vh; } }
 
 /*9. Animaciones*/
 @keyframes fadein {

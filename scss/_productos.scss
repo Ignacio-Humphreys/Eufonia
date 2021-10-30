@@ -11,13 +11,13 @@
 }
 .seccionProductos img:hover{
 	opacity: 1;
-	transform: scale(1.1, 1.1);
+	transform: scale(1.08, 1.08);
 }
 .seccionProductos h1 {
 	@include h1;
   margin-bottom: 0;
   display: flex;
-  margin-top: 8.5%;
+  margin-top: 8.7%;
   justify-content: center;
 	background-color: $MainGrey;
 	color: lightgrey;
@@ -76,7 +76,7 @@
 		color: white;
 		margin-left: 0px;
 		padding-left: 2px;
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 	.aside-productos__ul--instrumentos, .aside-productos__ul--sonido{
 		@include asideProd(150px);
