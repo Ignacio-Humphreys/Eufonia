@@ -735,6 +735,8 @@ footer {
   .card-group {
     height: 100% !important;
     width: 100% !important; }
+  .card-img-top:hover {
+    transform: none !important; }
   .card-title {
     font-size: 1rem !important; }
   .card-text {
@@ -752,6 +754,10 @@ footer {
     opacity: 0.8;
     grid-area: footer;
     margin-top: 69vh; }
+  footer h3 {
+    text-align: center; }
+  .extras-container__li {
+    text-align: center; }
   .footerIndex {
     margin-top: 70vh; }
   .redes-container {
@@ -786,7 +792,8 @@ footer {
   .seguinos__followers h3 {
     font-size: 1rem; }
   .footerRedes {
-    margin-top: 0; }
+    margin-top: auto;
+    margin-bottom: 0; }
   /*Donde Comprar*/
   .tabla {
     font-size: 1.5vw !important;
@@ -814,6 +821,8 @@ footer {
     width: 100%;
     backdrop-filter: brightness(0.4);
     padding-top: 25vh; }
+  .quienes-somos__texto p {
+    font-size: 4vw !important; }
   .quienes-somos__reseñas {
     display: flex;
     flex-direction: column;
@@ -937,6 +946,10 @@ footer {
     opacity: 0.8;
     grid-area: footer;
     margin-top: 68vh; }
+  footer h3 {
+    text-align: center; }
+  .extras-container__li {
+    text-align: center; }
   .footerIndex {
     margin-top: 70vh; }
   .redes-container {
@@ -968,7 +981,8 @@ footer {
   .seguinos__followers h3 {
     font-size: 1.15rem; }
   .footerRedes {
-    margin-top: 0; }
+    margin-top: auto;
+    margin-bottom: 0; }
   /*Donde Comprar*/
   .tabla {
     font-size: 1.4vw !important;
