@@ -627,7 +627,9 @@ footer {
 .quienes-somos__texto p {
   animation: fadeIn 6.5s;
   color: ivory;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Slab', serif;
+  margin-left: 2%;
+  margin-right: 3%; }
 
 .quienes-somos__reseñas {
   display: flex;
@@ -821,16 +823,18 @@ footer {
     width: 100%;
     backdrop-filter: brightness(0.4);
     padding-top: 25vh; }
-  .quienes-somos__texto p {
-    font-size: 4vw !important; }
+  .quienes-somos__texto h2 {
+    margin-left: 2%; }
   .quienes-somos__reseñas {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0; }
   .quienes-somos__div {
-    max-width: 20%;
+    max-width: 50%;
     padding-right: 0;
     padding-left: 0; }
   .quienes-somos__img {
@@ -851,6 +855,8 @@ footer {
     margin-bottom: 2%;
     font-size: 0.8rem;
     font-style: italic; }
+  .quienes-somos__texto p {
+    font-size: 0.9rem; }
   .footerQuienes {
     margin-top: 0; }
   /*Productos*/
@@ -1012,6 +1018,8 @@ footer {
     width: 100%;
     backdrop-filter: brightness(0.4);
     padding-top: 25vh; }
+  .quienes-somos__texto h2 {
+    margin-left: 2%; }
   .quienes-somos__reseñas {
     display: flex;
     flex-direction: column;
