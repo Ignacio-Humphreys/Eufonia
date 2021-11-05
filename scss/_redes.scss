@@ -34,6 +34,7 @@
 	justify-content: center;
 	width: 100%;
 	animation: slideIn 2.5s;
+	padding-bottom: 2vh;
 }
 .seguinos__followers--tiktok, .seguinos__followers--facebook{
 	@include redesDerechas;

@@ -69,6 +69,9 @@
 		height: 100% !important;
 		width: 100% !important;
 	}
+	.card__a{
+		height: 35% !important;
+	}
 	.card-img-top:hover{
 		transform: none !important;
 	}
@@ -76,7 +79,7 @@
 		font-size: 1rem !important;
 	}
 	.card-text{
-		font-size: 0.55rem !important;
+		font-size: 0.6rem !important;
 	}
 	footer{
 		display: flex;
@@ -100,6 +103,7 @@
 	}
 	.footerIndex{
 		margin-top: 70vh;
+		margin-bottom: 0;
 	}
 	.redes-container{
 		display: flex;
@@ -158,6 +162,35 @@
 		margin-top: 0;
 	}
 	/*Contacto*/
+	.contenedorContacto{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.formulario{
+		order: 1;
+	}
+	fieldset{
+		backdrop-filter: contrast(0.5);
+		span{
+			color: white !important;
+		}
+	}
+	.contactosAdicionales_2{
+		order: 2;
+	}
+	.contactosAdicionales{
+		order: 3;
+		.celular{
+			justify-content: center;
+			h2{
+				font-size: 1.3rem !important;
+			}
+			h3{
+				font-size: 1.1rem !important;
+			}
+		}
+	}
 	.footerContacto{
 		margin-top: 0;
 	}
@@ -177,7 +210,7 @@
 		z-index: 2;
 	    width: 100%;
 	    backdrop-filter: brightness(0.4);
-	    padding-top: 25vh;
+	    padding-top: 22vh;
 	}
 	.quienes-somos__texto h2{
 		margin-left: 2%;
@@ -224,7 +257,7 @@
 	}
 	/*Productos*/
 	.seccionProductos h1{
-		margin-top: 12.5vh;
+		margin-top: 79.53px;
 	}
 	.descProd_1, .descProd_2, .descProd3, .descProd4, .descProd5{
 		h2{
@@ -250,7 +283,8 @@
 	}
 	/*Legales*/
 	.footerLegales{
-		margin-top: 21.5vh;
+		margin-top: auto;
+		margin-bottom: 0;
 	}
 }
 @media (min-width: 767px) and (max-width: 991.98px){
@@ -324,11 +358,14 @@
 		height: 100% !important;
 		width: 100% !important;
 	}
+	.card__a{
+		height: 45% !important;
+	}
 	.card-title{
 		font-size: 1.1rem !important;
 	}
 	.card-text{
-		font-size: 0.75rem !important;
+		font-size: 0.8rem !important;
 	}
 	footer{
 		display: flex;
@@ -407,6 +444,35 @@
 		margin-top: 0;
 	}
 	/*Contacto*/
+	.contenedorContacto{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.formulario{
+		order: 1;
+	}
+	fieldset{
+		backdrop-filter: contrast(0.5);
+		span{
+			color: white !important;
+		}
+	}
+	.contactosAdicionales_2{
+		order: 2;
+	}
+	.contactosAdicionales{
+		order: 3;
+		.celular{
+			justify-content: center;
+			h2{
+				font-size: 1.5rem !important;
+			}
+			h3{
+				font-size: 1.3rem !important;
+			}
+		}
+	}
 	.footerContacto{
 		margin-top: 0;
 	}
@@ -470,7 +536,7 @@
 	}
 	/*Productos*/
 	.seccionProductos h1{
-		margin-top: 12.5vh;
+		margin-top: 79.53px;
 	}
 	.seccionProductos img:hover{
 		opacity: 1;
@@ -505,5 +571,10 @@
 	/*Legales*/
 	.footerLegales{
 		margin-top: 27vh;
+	}
+}
+@media (max-width: 1024px){
+	.seccionProductos h1{
+		margin-top: 79.53px;
 	}
 }

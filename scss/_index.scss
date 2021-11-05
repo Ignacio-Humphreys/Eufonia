@@ -4,25 +4,43 @@
 		height: 100%;
 		.carousel-inner{
 			height: 100%;
-			.carousel-caption{
-				position: absolute;
-			  z-index: 15;
-			  top: 50vh;
-			  h1, h2, h3{
-				  @include h1;
-				  color: white !important;
-				  font-size: 3rem !important;
-				  text-decoration: none !important;
-				  font-style: normal;
-				  filter: drop-shadow(2px 4px 6px black);
+			.vinilo{
+    		height: 100%;
+    		.imgVinilo{
+			    height: 100%;
+				}
+			}
+			.guitarra1{
+    		height: 100%;
+    		.imgGuitarra1{
+			    height: 100%;
+				}
+			}
+			.guitarra2{
+    		height: 100%;
+    		.imgGuitarra2{
+			    height: 100%;
+				}
+			}
+				.carousel-caption{
+					position: absolute;
+				  z-index: 15;
+				  top: 50vh;
+				  h1, h2, h3{
+					  @include h1;
+					  color: white !important;
+					  font-size: 3rem !important;
+					  text-decoration: none !important;
+					  font-style: normal;
+					  filter: drop-shadow(2px 4px 6px black);
+				}
 			}
 		}
-	}
 		.carousel-control-prev{
-			opacity: 0;
+			opacity: 0.2;
 		}
 		.carousel-control-next{
-			opacity: 0;
+			opacity: 0.2;
 		}
 	}
 	.productosDestacados {

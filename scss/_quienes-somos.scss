@@ -17,7 +17,7 @@
   float: left;
   height: 100%;
   width: 100%;
-  animation: fadeIn 3s;
+  animation: fadeIn 2.5s;
 }
 .quienes-somos__texto{
 	width: 55%;
@@ -34,14 +34,14 @@
 	color: $NarOsc;
 	text-shadow: 0.1px 0.1px black;
 	margin-bottom: 0;
-	animation: slideIn 3s;
+	animation: slideIn 2.5s;
 }
 .quienes-somos__texto h3{
 	font-family: 'Bebas Neue';
 	color: #DBD6D6;	
 	font-style: italic;
 	text-align: center;
-	animation: slideIn_2 3.5s;
+	animation: slideIn_2 3s;
 }
 .quienes-somos__texto p{
 	animation: fadeIn 6.5s;
@@ -70,6 +70,7 @@
 	max-width: 20%;
 	padding-right: 5%;
 	padding-left: 5%;
+	padding-bottom: 2%;
 }
 .quienes-somos__img{
 	box-sizing: border-box;
