@@ -855,7 +855,9 @@ footer {
   .quienes-somos__landing {
     z-index: 0;
     background-image: url("../img/electric-guitar-edit.jpg");
-    animation: fadeIn 2s; }
+    animation: fadeIn 2s;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .quienes-somos__imagen {
     display: none; }
   .quienes-somos__imagen--img {
