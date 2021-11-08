@@ -201,7 +201,6 @@
 	    animation: fadeIn 2s;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-	    background-attachment: fixed;
 	}
 	.quienes-somos__imagen{
 		display: none;
@@ -486,6 +485,7 @@
 		background-repeat: no-repeat;
 		background-repeat: round;
 		animation: fadeIn 2s;
+		background-size: cover;
 	}
 	.quienes-somos__imagen{
 		display: none;
